@@ -70,12 +70,6 @@ text-decoration: none;
     height: 510px;
 }
 
-.hero-tex{
-    font-size: 16px;
-    line-height: 1.5; 
-    letter-spacing: o.5px;
-}
-
 .features-heading{
   width: 440px;
   font-size: 72px;
@@ -91,8 +85,7 @@ text-decoration: none;
 }
 
 .feature{
-    width: 340px;
-    
+    width: 340px;   
 }
 
 .feature-icon-wrapper{
@@ -104,14 +97,8 @@ text-decoration: none;
 .features.title{
     font-size: 24px;
     line-height: 1.2;
-    letter-spacing: 0.5;
+    font-family: "Roboto Condensed","Roboto", "Arial", sans-serif;
 }
-
-feature-info{
-    font-size: 16px;
-    line-height: 1.5;
-}
-
 .promo{
     display: flex;
     justify-content: space-between;
@@ -126,12 +113,8 @@ feature-info{
 
 .promo-heading{
     font-size: 40px;
-    line-height: 48;
-}
-
-.promo-text{
-    font-size: 16px;
-    line-height: 1.5;
+    line-height: 48px;
+    font-family: "Roboto Condensed","Roboto", "Arial", sans-serif;
 }
 
 .promo-highlight{
@@ -174,11 +157,10 @@ feature-info{
 
 .site-foter-links{
     width: 224px;
+    line-height: 19px;
 }
 
 .site-foter-links a {
-    font-size: 16px;
-    line-height: 19px;
     text-decoration: none;
     color:#252420
 }
