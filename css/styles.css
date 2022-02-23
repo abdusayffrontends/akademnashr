@@ -12,6 +12,14 @@
     background-color: #fff;
 }
 
+.logo-link{
+    transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+    opacity: 0.8;
+}
+
 .site-header-actions{
     display: flex;
     align-items: center;
@@ -30,6 +38,17 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
+    transition: color 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.sitenav-link:hover{
+    color: #ff7500;
+}
+
+
+.sitenav-link:hover{
+    opacity: 0.6;
 }
 
 .main-link{
@@ -38,8 +57,17 @@ line-height: 15px;
 background-color: #ff7500;
 color: #fff;
 text-decoration: none;
+transition: opacity o.4s ease;
 }
 
+.main-link:hover{
+    opacity: 0.8;
+}
+
+
+.main-link:active{
+    opacity: 0.6;
+}
 
 .hero {
     display: flex;
@@ -78,8 +106,8 @@ text-decoration: none;
   letter-spacing: 0.5;
 }
 
-.features-list{
-    display:  flex;
+.features-list {
+    display: flex;
     justify-content: space-between;
     list-style: none;
 }
@@ -146,6 +174,18 @@ text-decoration: none;
     align-items: center;
 }
 
+.site-footer-socials a {
+    color: #252420;
+}
+      
+.site-footer-socials a:hover{
+    color: #ff7500;
+}  
+
+.site-footer-socials a:active{
+    opacity: 0.6;
+}
+
 .site-footer-divider{
     height: 2px;
     background: rgba(37, 36,32,0.5);
@@ -160,10 +200,18 @@ text-decoration: none;
     line-height: 19px;
 }
 
-.site-foter-links a {
+.site-foter-links a{
     text-decoration: none;
     color:#252420
 }
 
+.site-foter-links a:hover{
+    color: #ff7500;
+}
+
+
+.site-foter-links a:focus{
+    opacity: 0,6;
+}
 
 
