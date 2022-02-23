@@ -5,6 +5,11 @@
     letter-spacing: 0.5px;
 }
 
+*:focus{
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+}
+
 .site-header{
     display: flex;
     justify-content: space-between;
