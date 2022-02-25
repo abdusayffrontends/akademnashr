@@ -336,14 +336,21 @@ feature-info{
     list-style: none;
     line-height: 19px;
 }
-
+.site-foter-links li{
+    margin-bottom: 16px;
+}
 .site-footer-links:last child{
     margin-right: 0;
 }
 
 .site-foter-links a{
     text-decoration: none;
-    color:#252420
+    color:#252420;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .site-foter-links a:hover{
