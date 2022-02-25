@@ -11,27 +11,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     
+    
     <!-- styles -->
+    
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css"> 
 </head>
 <body>
     
     <header class="site-header">
-        <a class="clogo-link" href="index.html">
-            <img src="img/image.svg" alt="Akademnashr logo" width="227" height="60" >
-        </a>
-        
-        
-        <div class="site-header-actions">
-            <nav>
-                <ul class="sitenav-list" >
-                    <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-                    <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-                    <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-                    <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
-                </ul>
-            </nav>
-            <a class="main-link" href="#">Ro’yxatdan o’tish</a>
+        <div class="site-header-container container">
+            <a class="image-link" href="index.html">
+                <img src="img/image.svg" alt="Akademnashr logo" width="227" height="60" >
+            </a>
+            
+            
+            <div class="site-header-actions">
+                <nav>
+                    <ul class="sitenav-list" >
+                        <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+                        <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+                        <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+                        <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
+                    </ul>
+                </nav>
+                <a class="main-link" href="#">Ro’yxatdan o’tish</a>
+            </div>
         </div>
     </header>
     
@@ -41,60 +46,72 @@
         <hr>
         
         <section class="hero">
-            <div class="hero-content">
+          <div class="hero-container container">  
+            <div class="hero-text">
                 <hr class="orange-line">
                 <h2 class="hero-heading">Pythonda dasturlash asoslari</h2>
                 <p class="hero-tex">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. <br>Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib,<br>ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
                 <a class="main-link" href="#">Buyurtma berish</a>
             </div>
-            
+                
             <img class="hero-img" src="imig/python-book.jpg" alt="Qo'lda ushlab turilgan Pythonda dasturlash kitoblari " width="510" height="510" srcset="img/python-book.jpg 1x, img/ python-book-2.jpg 2x">
+            </div>
         </section>
         
         <!-- FEATURIS -->
         
         <section class="features">
-            <hr class="orange-line">
-            <h2 class="features-heading">Nega aynan Akademnashr? </h2>
-            
-            <ul class="feutures-list">
-                <li class="feature">
-                    <div class="feature-icon-wrapper">
-                        <img src="img/ko'rsarkich.svg" alt="width=56" height="56">
-                    </div>
-                    <h3 class="feature-title">Oson buyurtma qilish</h3>
-                    <p>Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
-                </li>
-                <li class="feature">
-                    <div class="feature-icon-wrapper"><img src="img/yulduz.svg" alt="width=56" height="56"></div>
-                    <h3 class="feature-title">Eng sara kitoblar</h3>
-                    <p>Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
-                </li>
-                <li class="feature">
-                    <div class="feature-icon-wrapper"><img src="img/icon.svg" alt="width=56" height="56"></div>
-                    <h3 class="feature-title">Tez yetkazib berish</h3>
-                    <p>O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
-                </li>
-            </ul>
+            <div class="container ">
+                <hr class="orange-line">
+                <h2 class="features-heading">Nega aynan Akademnashr? </h2>
+                
+                <ul class="features-list">
+                    <li class="feature">
+                        <div class="feature-icon-wrapper">
+                            <img src="img/ko'rsarkich.svg" alt="width=56" height="56">
+                        </div>
+                        <h3 class="feature-title">Oson buyurtma qilish</h3>
+                        <p>Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
+                    </li>
+                    <li class="feature">
+                        <div class="feature-icon-wrapper"><img src="img/yulduz.svg" alt="width=56" height="56"></div>
+                        <h3 class="feature-title">Eng sara kitoblar</h3>
+                        <p>Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
+                    </li>
+                    <li class="feature">
+                        <div class="feature-icon-wrapper"><img src="img/icon.svg" alt="width=56" height="56"></div>
+                        <h3 class="feature-title">Tez yetkazib berish</h3>
+                        <p>O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
+                    </li>
+                </ul>
+            </div>
             
         </section>
         
         <!-- AKSIYA -->
         
         <section class="promo" >
-            <div class="promo-content">
-                <h2 class="promo-heding">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-                <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-                <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="">50 ta kitob</strong>ni <strong>350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
-                <a class="main-link" href="#">Buyurtma berish</a>
+            <div class="container">
+                <div class="promo-inner">
+                    <div class="promo-content">
+                        <h2 class="promo-heding">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+                        <div class="promo-info-wrapper">
+                        <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+                        <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="">50 ta kitob</strong>ni <strong>350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                        <a class="main-link" href="#">Buyurtma berish</a>
+                    </div>
+                    </div>
+                    <img class="promo-img" src="img/sale-img.jpg" alt="kitoblar to'plami joylashgan" width="440" height="440" srcset="img/sale-img.jpg 1x">
             </div>
             
-            <img class="promo-img" src="img/sale-img.jpg" alt="kitoblar to'plami joylashgan" width="440" height="440" srcset="img/sale-img.jpg 1x">
-        </section>    
-    </main>
-    
-    <!-- SITE FOOTER -->
-    <footer class="site-footer">
+            </div>
+    </section>    
+</main>
+
+<!-- SITE FOOTER -->
+<footer class="site-footer">
+    <div class="container site-footer-container">
+
         <div class="site-footer-top">
             <a href="index.html">
                 <img src="img/image.svg" alt="Akademnashr logo" width="227" height="60" >
@@ -149,7 +166,8 @@
                 
             </ul>
         </div>
-    </footer>
-    
+    </div>
+</footer>
+
 </body>                 
 </html>
